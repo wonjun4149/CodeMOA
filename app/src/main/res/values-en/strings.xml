@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CodeMOA</string>
+    <string name="app_description">Manage all your memberships and gift cards in one place</string>
+
+    <!-- 하단 네비게이션 -->
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_membership">Membership</string>
+    <string name="tab_gift_card">Gift Cards</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- 공통 액션 -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_back">Back</string>
+    <string name="action_confirm">Confirm</string>
+
+    <!-- 카드 관련 -->
+    <string name="card_name">Card Name</string>
+    <string name="company_name">Company</string>
+    <string name="barcode_data">Barcode Data</string>
+    <string name="barcode_type">Barcode Type</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="membership_number">Membership Number</string>
+    <string name="gift_value">Value</string>
+    <string name="category">Category</string>
+    <string name="benefits">Benefits</string>
+    <string name="tier_level">Tier Level</string>
+
+    <!-- 설정 -->
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_backup">Backup &amp; Restore</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_about">About</string>
+
+    <!-- 테마 -->
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_system">System Default</string>
+
+    <!-- 언어 설정 -->
+    <string name="language_korean">한국어</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_system_default">System Default</string>
+
+    <!-- 알림 설정 -->
+    <string name="notification_enabled">Push Notifications</string>
+    <string name="expiry_notification">Expiry Notifications</string>
+    <string name="notification_days">Notification Timing</string>
+    <string name="days_before">%d days before</string>
+
+    <!-- 메시지 -->
+    <string name="message_no_favorites">No favorite cards.\nAdd memberships or gift cards to favorites!</string>
+    <string name="message_no_membership">No memberships registered.\nTap the + button to add a membership!</string>
+    <string name="message_no_gift_cards">No gift cards registered.\nTap the + button to add a gift card!</string>
+    <string name="message_card_saved">Card saved successfully.</string>
+    <string name="message_card_deleted">Card deleted successfully.</string>
+    <string name="message_invalid_password">Invalid password.</string>
+    <string name="message_fill_required_fields">Please fill in required fields.</string>
+
+    <!-- 백업/복원 -->
+    <string name="backup_create_qr">Create Backup QR Code</string>
+    <string name="backup_scan_qr">Restore from QR Code</string>
+    <string name="backup_password_hint">4-digit password</string>
+    <string name="backup_password_description">Enter a 4-digit number to protect your QR code</string>
+    <string name="backup_success">Backup completed successfully.</string>
+    <string name="restore_success">Restore completed successfully.</string>
+    <string name="backup_data_too_large">Backup data is too large. Please delete some cards and try again.</string>
+
+    <!-- 바코드 타입 -->
+    <string name="barcode_qr">QR Code</string>
+    <string name="barcode_code128">Code 128</string>
+    <string name="barcode_code39">Code 39</string>
+    <string name="barcode_ean13">EAN-13</string>
+    <string name="barcode_ean8">EAN-8</string>
+
+    <!-- 카드 추가 -->
+    <string name="add_card_title">Add Card</string>
+    <string name="add_membership_title">Add Membership</string>
+    <string name="add_gift_card_title">Add Gift Card</string>
+    <string name="select_expiry_date">Select Expiry Date</string>
+    <string name="scan_barcode_hint">Scan Barcode</string>
+    <string name="manual_input">Manual Input</string>
+
+    <!-- 에러 메시지 -->
+    <string name="error_loading_cards">Failed to load cards.</string>
+    <string name="error_saving_card">Failed to save card.</string>
+    <string name="error_deleting_card">Failed to delete card.</string>
+    <string name="error_camera_permission">Camera permission required.</string>
+    <string name="error_barcode_scan">Failed to scan barcode.</string>
+
+    <!-- 위젯 -->
+    <string name="widget_description">Quick access to memberships and gift cards</string>
+
+    <!-- 콘텐츠 설명 (접근성) -->
+    <string name="cd_add_card">Add card</string>
+    <string name="cd_favorite_card">Favorite</string>
+    <string name="cd_card_type_icon">Card type</string>
+    <string name="cd_barcode">Barcode</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_settings">Settings</string>
+
+    <!-- 만료 상태 -->
+    <string name="expires_in_days">Expires in %d days</string>
+    <string name="expires_today">Expires today</string>
+    <string name="expired">Expired</string>
+    <string name="used">Used</string>
+
+    <!-- 보안 -->
+    <string name="security_app_lock">App Lock</string>
+    <string name="security_biometric">Biometric Authentication</string>
+    <string name="security_pin">PIN Setup</string>
+    <string name="authenticate_title">Authentication Required</string>
+    <string name="authenticate_subtitle">Please authenticate with fingerprint or PIN</string>
+</resources>

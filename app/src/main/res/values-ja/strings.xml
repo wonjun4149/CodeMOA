@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CodeMOA</string>
+    <string name="app_description">すべてのメンバーシップとギフトカードを一か所で管理</string>
+
+    <!-- 하단 네비게이션 -->
+    <string name="tab_favorites">お気に入り</string>
+    <string name="tab_membership">メンバーシップ</string>
+    <string name="tab_gift_card">ギフトカード</string>
+    <string name="tab_settings">設定</string>
+
+    <!-- 공통 액션 -->
+    <string name="action_save">保存</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_delete">削除</string>
+    <string name="action_edit">編集</string>
+    <string name="action_add">追加</string>
+    <string name="action_search">検索</string>
+    <string name="action_scan">スキャン</string>
+    <string name="action_back">戻る</string>
+    <string name="action_confirm">確認</string>
+
+    <!-- 카드 관련 -->
+    <string name="card_name">カード名</string>
+    <string name="company_name">会社名</string>
+    <string name="barcode_data">バーコードデータ</string>
+    <string name="barcode_type">バーコードタイプ</string>
+    <string name="expiry_date">有効期限</string>
+    <string name="membership_number">メンバーシップ番号</string>
+    <string name="gift_value">金額</string>
+    <string name="category">カテゴリ</string>
+    <string name="benefits">特典</string>
+    <string name="tier_level">ランク</string>
+
+    <!-- 설정 -->
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_backup">バックアップと復元</string>
+    <string name="settings_security">セキュリティ</string>
+    <string name="settings_about">アプリ情報</string>
+
+    <!-- 테마 -->
+    <string name="theme_light">ライトモード</string>
+    <string name="theme_dark">ダークモード</string>
+    <string name="theme_system">システム設定</string>
+
+    <!-- 언어 설정 -->
+    <string name="language_korean">한국어</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_system_default">システムデフォルト</string>
+
+    <!-- 알림 설정 -->
+    <string name="notification_enabled">プッシュ通知</string>
+    <string name="expiry_notification">期限切れ通知</string>
+    <string name="notification_days">通知タイミング</string>
+    <string name="days_before">%d日前</string>
+
+    <!-- 메시지 -->
+    <string name="message_no_favorites">お気に入りのカードがありません。\nメンバーシップやギフトカードをお気に入りに追加してください！</string>
+    <string name="message_no_membership">登録されたメンバーシップがありません。\n右下の+ボタンを押してメンバーシップを追加してください！</string>
+    <string name="message_no_gift_cards">登録されたギフトカードがありません。\n右下の+ボタンを押してギフトカードを追加してください！</string>
+    <string name="message_card_saved">カードが保存されました。</string>
+    <string name="message_card_deleted">カードが削除されました。</string>
+    <string name="message_invalid_password">パスワードが間違っています。</string>
+    <string name="message_fill_required_fields">必須項目を入力してください。</string>
+
+    <!-- 백업/복원 -->
+    <string name="backup_create_qr">バックアップQRコード生成</string>
+    <string name="backup_scan_qr">QRコードから復元</string>
+    <string name="backup_password_hint">4桁のパスワード</string>
+    <string name="backup_password_description">QRコードを保護する4桁の数字を入力してください</string>
+    <string name="backup_success">バックアップが完了しました。</string>
+    <string name="restore_success">復元が完了しました。</string>
+    <string name="backup_data_too_large">バックアップデータが大きすぎます。一部のカードを削除してから再試行してください。</string>
+
+    <!-- 바코드 타입 -->
+    <string name="barcode_qr">QRコード</string>
+    <string name="barcode_code128">Code 128</string>
+    <string name="barcode_code39">Code 39</string>
+    <string name="barcode_ean13">EAN-13</string>
+    <string name="barcode_ean8">EAN-8</string>
+
+    <!-- 카드 추가 -->
+    <string name="add_card_title">カード追加</string>
+    <string name="add_membership_title">メンバーシップ追加</string>
+    <string name="add_gift_card_title">ギフトカード追加</string>
+    <string name="select_expiry_date">有効期限選択</string>
+    <string name="scan_barcode_hint">バーコードスキャン</string>
+    <string name="manual_input">手動入力</string>
+
+    <!-- 에러 메시지 -->
+    <string name="error_loading_cards">カードの読み込みに失敗しました。</string>
+    <string name="error_saving_card">カードの保存に失敗しました。</string>
+    <string name="error_deleting_card">カードの削除に失敗しました。</string>
+    <string name="error_camera_permission">カメラ権限が必要です。</string>
+    <string name="error_barcode_scan">バーコードスキャンに失敗しました。</string>
+
+    <!-- 위젯 -->
+    <string name="widget_description">メンバーシップとギフトカードに素早くアクセス</string>
+
+    <!-- 콘텐츠 설명 (접근성) -->
+    <string name="cd_add_card">カード追加</string>
+    <string name="cd_favorite_card">お気に入り</string>
+    <string name="cd_card_type_icon">カードタイプ</string>
+    <string name="cd_barcode">バーコード</string>
+    <string name="cd_back">戻る</string>
+    <string name="cd_menu">メニュー</string>
+    <string name="cd_settings">設定</string>
+
+    <!-- 만료 상태 -->
+    <string name="expires_in_days">%d日で期限切れ</string>
+    <string name="expires_today">今日期限切れ</string>
+    <string name="expired">期限切れ</string>
+    <string name="used">使用済み</string>
+
+    <!-- 보안 -->
+    <string name="security_app_lock">アプリロック</string>
+    <string name="security_biometric">生体認証</string>
+    <string name="security_pin">PIN設定</string>
+    <string name="authenticate_title">認証が必要です</string>
+    <string name="authenticate_subtitle">指紋またはPINで認証してください</string>
+</resources>
